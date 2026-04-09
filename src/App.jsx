@@ -1,4 +1,5 @@
 import Table1 from "./Components/Table1";
+import Input from "./Components/Input1";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
   return (
     <>
     <ThemeProvider theme={theme}>
-       <Table1 />
+       {/* <Table1 /> */}
+       <Input />
     </ThemeProvider>
    
     </>

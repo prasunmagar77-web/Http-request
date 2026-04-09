@@ -11,12 +11,12 @@ const Table1 = () => {
     const [data, setData] = useState("");
     const [show, setShow] = useState('');
 
-const fetchdata = async () => {
-  const res =  await axios(config);
-  console.log(res);
-  
-}
-// fetchdata()
+    const fetchdata = async () => {
+        const res = await axios(config);
+        console.log(res);
+
+    }
+    // fetchdata()
     return (
         <>
             <div className="max-w-full flex justify-center p-20">
